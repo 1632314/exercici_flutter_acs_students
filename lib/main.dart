@@ -17,7 +17,10 @@ class MyApp extends StatelessWidget {
       // removes the debug banner that hides the home button
       title: 'ACS',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue), // deepPurple
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.blue,
+          brightness: Brightness.light
+        ), // deepPurple
         useMaterial3: true,
         textTheme: const TextTheme(
           bodyMedium: TextStyle(fontSize: 20), // size of hello
