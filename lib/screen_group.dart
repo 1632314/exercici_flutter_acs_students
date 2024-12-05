@@ -41,7 +41,7 @@ class _ScreenGroupState extends State<ScreenGroup> {
         () => ScreenGroupInfo(userGroup: widget.userGroup),
         () => ScreenGroupSchedule(userGroup: widget.userGroup),
         () => ScreenGroupActions(userGroup: widget.userGroup),
-        () => ScreenGroupInfo(userGroup: widget.userGroup),
+        () => widget,
         () => ScreenGroupUsers(userGroup: widget.userGroup)
     ];
   }
